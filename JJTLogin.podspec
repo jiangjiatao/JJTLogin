@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "0.0.1"
   spec.summary      = "JJTLogin ok."
   spec.description  = <<-DESC
-  JJTLogin ok JJTLogin ok .
+  JJTLogin ok JJTLogin ok.
                    DESC
 
   spec.homepage     = "https://github.com/jiangjiatao/JJTLogin"
