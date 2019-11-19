@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5AFE13E23840C44000A5969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE13D23840C44000A5969 /* AppDelegate.m */; };
+		E5AFE14123840C44000A5969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE14023840C44000A5969 /* ViewController.m */; };
+		E5AFE14423840C44000A5969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE14223840C44000A5969 /* Main.storyboard */; };
+		E5AFE14623840C45000A5969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE14523840C45000A5969 /* Assets.xcassets */; };
+		E5AFE14923840C45000A5969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AFE14723840C45000A5969 /* LaunchScreen.storyboard */; };
+		E5AFE14C23840C45000A5969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE14B23840C45000A5969 /* main.m */; };
+		E5AFE15623840C46000A5969 /* JJTLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE15523840C46000A5969 /* JJTLoginTests.m */; };
+		E5AFE16123840C46000A5969 /* JJTLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5AFE16023840C46000A5969 /* JJTLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5AFE15223840C45000A5969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5AFE13123840C44000A5969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5AFE13823840C44000A5969;
+			remoteInfo = JJTLogin;
+		};
+		E5AFE15D23840C46000A5969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5AFE13123840C44000A5969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5AFE13823840C44000A5969;
+			remoteInfo = JJTLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5AFE13923840C44000A5969 /* JJTLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJTLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AFE13C23840C44000A5969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5AFE13D23840C44000A5969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5AFE13F23840C44000A5969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E5AFE14023840C44000A5969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E5AFE14323840C44000A5969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5AFE14523840C45000A5969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5AFE14823840C45000A5969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5AFE14A23840C45000A5969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AFE14B23840C45000A5969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5AFE15123840C45000A5969 /* JJTLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AFE15523840C46000A5969 /* JJTLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTLoginTests.m; sourceTree = "<group>"; };
+		E5AFE15723840C46000A5969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AFE15C23840C46000A5969 /* JJTLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AFE16023840C46000A5969 /* JJTLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTLoginUITests.m; sourceTree = "<group>"; };
+		E5AFE16223840C46000A5969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AFE13623840C44000A5969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AFE14E23840C45000A5969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AFE15923840C46000A5969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5AFE13023840C44000A5969 = {
+			isa = PBXGroup;
+			children = (
+				E5AFE13B23840C44000A5969 /* JJTLogin */,
+				E5AFE15423840C46000A5969 /* JJTLoginTests */,
+				E5AFE15F23840C46000A5969 /* JJTLoginUITests */,
+				E5AFE13A23840C44000A5969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5AFE13A23840C44000A5969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE13923840C44000A5969 /* JJTLogin.app */,
+				E5AFE15123840C45000A5969 /* JJTLoginTests.xctest */,
+				E5AFE15C23840C46000A5969 /* JJTLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AFE13B23840C44000A5969 /* JJTLogin */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE13C23840C44000A5969 /* AppDelegate.h */,
+				E5AFE13D23840C44000A5969 /* AppDelegate.m */,
+				E5AFE13F23840C44000A5969 /* ViewController.h */,
+				E5AFE14023840C44000A5969 /* ViewController.m */,
+				E5AFE14223840C44000A5969 /* Main.storyboard */,
+				E5AFE14523840C45000A5969 /* Assets.xcassets */,
+				E5AFE14723840C45000A5969 /* LaunchScreen.storyboard */,
+				E5AFE14A23840C45000A5969 /* Info.plist */,
+				E5AFE14B23840C45000A5969 /* main.m */,
+			);
+			path = JJTLogin;
+			sourceTree = "<group>";
+		};
+		E5AFE15423840C46000A5969 /* JJTLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE15523840C46000A5969 /* JJTLoginTests.m */,
+				E5AFE15723840C46000A5969 /* Info.plist */,
+			);
+			path = JJTLoginTests;
+			sourceTree = "<group>";
+		};
+		E5AFE15F23840C46000A5969 /* JJTLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5AFE16023840C46000A5969 /* JJTLoginUITests.m */,
+				E5AFE16223840C46000A5969 /* Info.plist */,
+			);
+			path = JJTLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5AFE13823840C44000A5969 /* JJTLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AFE16523840C46000A5969 /* Build configuration list for PBXNativeTarget "JJTLogin" */;
+			buildPhases = (
+				E5AFE13523840C44000A5969 /* Sources */,
+				E5AFE13623840C44000A5969 /* Frameworks */,
+				E5AFE13723840C44000A5969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJTLogin;
+			productName = JJTLogin;
+			productReference = E5AFE13923840C44000A5969 /* JJTLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5AFE15023840C45000A5969 /* JJTLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AFE16823840C46000A5969 /* Build configuration list for PBXNativeTarget "JJTLoginTests" */;
+			buildPhases = (
+				E5AFE14D23840C45000A5969 /* Sources */,
+				E5AFE14E23840C45000A5969 /* Frameworks */,
+				E5AFE14F23840C45000A5969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5AFE15323840C45000A5969 /* PBXTargetDependency */,
+			);
+			name = JJTLoginTests;
+			productName = JJTLoginTests;
+			productReference = E5AFE15123840C45000A5969 /* JJTLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5AFE15B23840C46000A5969 /* JJTLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AFE16B23840C46000A5969 /* Build configuration list for PBXNativeTarget "JJTLoginUITests" */;
+			buildPhases = (
+				E5AFE15823840C46000A5969 /* Sources */,
+				E5AFE15923840C46000A5969 /* Frameworks */,
+				E5AFE15A23840C46000A5969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5AFE15E23840C46000A5969 /* PBXTargetDependency */,
+			);
+			name = JJTLoginUITests;
+			productName = JJTLoginUITests;
+			productReference = E5AFE15C23840C46000A5969 /* JJTLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AFE13123840C44000A5969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = softium;
+				TargetAttributes = {
+					E5AFE13823840C44000A5969 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E5AFE15023840C45000A5969 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E5AFE13823840C44000A5969;
+					};
+					E5AFE15B23840C46000A5969 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E5AFE13823840C44000A5969;
+					};
+				};
+			};
+			buildConfigurationList = E5AFE13423840C44000A5969 /* Build configuration list for PBXProject "JJTLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5AFE13023840C44000A5969;
+			productRefGroup = E5AFE13A23840C44000A5969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AFE13823840C44000A5969 /* JJTLogin */,
+				E5AFE15023840C45000A5969 /* JJTLoginTests */,
+				E5AFE15B23840C46000A5969 /* JJTLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AFE13723840C44000A5969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFE14923840C45000A5969 /* LaunchScreen.storyboard in Resources */,
+				E5AFE14623840C45000A5969 /* Assets.xcassets in Resources */,
+				E5AFE14423840C44000A5969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AFE14F23840C45000A5969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AFE15A23840C46000A5969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AFE13523840C44000A5969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFE14123840C44000A5969 /* ViewController.m in Sources */,
+				E5AFE14C23840C45000A5969 /* main.m in Sources */,
+				E5AFE13E23840C44000A5969 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AFE14D23840C45000A5969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFE15623840C46000A5969 /* JJTLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AFE15823840C46000A5969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFE16123840C46000A5969 /* JJTLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5AFE15323840C45000A5969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5AFE13823840C44000A5969 /* JJTLogin */;
+			targetProxy = E5AFE15223840C45000A5969 /* PBXContainerItemProxy */;
+		};
+		E5AFE15E23840C46000A5969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5AFE13823840C44000A5969 /* JJTLogin */;
+			targetProxy = E5AFE15D23840C46000A5969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5AFE14223840C44000A5969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AFE14323840C44000A5969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5AFE14723840C45000A5969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5AFE14823840C45000A5969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5AFE16323840C46000A5969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5AFE16423840C46000A5969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5AFE16623840C46000A5969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jjt.JJTLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5AFE16723840C46000A5969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jjt.JJTLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5AFE16923840C46000A5969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jjt.JJTLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTLogin.app/JJTLogin";
+			};
+			name = Debug;
+		};
+		E5AFE16A23840C46000A5969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jjt.JJTLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJTLogin.app/JJTLogin";
+			};
+			name = Release;
+		};
+		E5AFE16C23840C46000A5969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jjt.JJTLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJTLogin;
+			};
+			name = Debug;
+		};
+		E5AFE16D23840C46000A5969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JJTLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jjt.JJTLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JJTLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AFE13423840C44000A5969 /* Build configuration list for PBXProject "JJTLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AFE16323840C46000A5969 /* Debug */,
+				E5AFE16423840C46000A5969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AFE16523840C46000A5969 /* Build configuration list for PBXNativeTarget "JJTLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AFE16623840C46000A5969 /* Debug */,
+				E5AFE16723840C46000A5969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AFE16823840C46000A5969 /* Build configuration list for PBXNativeTarget "JJTLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AFE16923840C46000A5969 /* Debug */,
+				E5AFE16A23840C46000A5969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AFE16B23840C46000A5969 /* Build configuration list for PBXNativeTarget "JJTLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AFE16C23840C46000A5969 /* Debug */,
+				E5AFE16D23840C46000A5969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5AFE13123840C44000A5969 /* Project object */;
+}
